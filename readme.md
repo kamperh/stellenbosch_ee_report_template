@@ -15,6 +15,13 @@ By (un)commenting the appropriate lines in the root LaTeX file
 - Skripsie (i.e. final year project) reports
 - MEng theses
 
+You can also use alternative small-cap headings by:
+
+- Commenting out the `% Headings` section in the root LaTeX file and
+  uncommenting the subsequent code block for the alternative headings.
+- (Un)commenting the desired line for formatting the title in the
+  `title_page.tex` file.
+
 
 License
 -------
