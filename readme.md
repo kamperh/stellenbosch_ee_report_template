@@ -19,7 +19,7 @@ You can also use alternative small-cap headings by:
 
 - Commenting out the `% Headings` section in the root LaTeX file and
   uncommenting the subsequent code block for the alternative headings.
-- (Un)commenting the desired line for formatting the title in the
+- (Un)commenting the appropriate line for formatting the title in the
   `title_page.tex` file.
 
 
