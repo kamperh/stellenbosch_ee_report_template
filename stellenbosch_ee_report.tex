@@ -3,14 +3,6 @@
 % Page layout
 \usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
 
-% Figures
-\usepackage[margin=\the\parindent,small,bf,sf]{caption}
-\usepackage{graphicx}
-\usepackage{pdfpages}
-\usepackage{subcaption}
-\setlength{\abovecaptionskip}{7.5pt}  % spacing above and below captions
-\newcommand*{\WaterMark}[2][0.2\paperwidth]{\AddToShipoutPicture*{\AtTextCenter{\parbox[c]{0pt}{\makebox[0pt][c]{\includegraphics[width=#1]{#2}}}}}}
-
 % Font and text
 \usepackage[afrikaans,english]{babel}
 \usepackage{microtype}
@@ -23,6 +15,7 @@
 
 % Headings
 \usepackage[raggedright,sf,bf]{titlesec}
+\usepackage[margin=\the\parindent,small,bf,sf]{caption}
 \titlelabel{\thetitle.\ }
 \titleformat{\chapter}[display]{\huge\bfseries\sffamily}{\chaptertitlename\ \thechapter}{15pt}{\Huge \raggedright}
 \titlespacing*{\chapter}{0pt}{0pt}{40pt}  % remove spacing before chapter headings
@@ -33,6 +26,7 @@
 
 %% Alternative headings using small-caps (comment out the top section)
 %\usepackage[raggedright,bf]{titlesec}
+%\usepackage[margin=\the\parindent,small,bf]{caption}
 %\titlelabel{\thetitle.\ }
 %\titleformat{\chapter}[display]{\huge\scshape}{\chaptertitlename\ \thechapter}{15pt}{\Huge \raggedright}
 %\titlespacing*{\chapter}{0pt}{0pt}{40pt}  % remove spacing before chapter headings
@@ -40,6 +34,13 @@
 % Table of contents
 \let \savenumberline \numberline
 \def \numberline#1{\savenumberline{#1.}}
+
+% Figures
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{subcaption}
+\setlength{\abovecaptionskip}{7.5pt}  % spacing above and below captions
+\newcommand*{\WaterMark}[2][0.2\paperwidth]{\AddToShipoutPicture*{\AtTextCenter{\parbox[c]{0pt}{\makebox[0pt][c]{\includegraphics[width=#1]{#2}}}}}}
 
 % Mathematics
 \usepackage[cmex10]{amsmath}
