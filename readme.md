@@ -25,5 +25,6 @@ You can also use alternative small-cap headings by:
 
 License
 -------
-The code is distributed under the Creative Commons Attribution-ShareAlike
+&copy; 2020-2021 Herman Kamper  
+This work is licensed under the Creative Commons Attribution-ShareAlike
 license ([CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)).
