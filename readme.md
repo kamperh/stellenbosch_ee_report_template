@@ -1,30 +1,28 @@
-Stellenbosch University E&E Department LaTeX Template
-=====================================================
+# Stellenbosch University E&E Department LaTeX Template
 
-Overview
---------
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](license.md)
+
+
+## Overview
+
 A LaTeX template for reports following the guidelines of the E&E department at
 Stellenbosch University.
 
 
-Options
--------
-By (un)commenting the appropriate lines in the root LaTeX file
-(`stellenbosch_ee_report.tex`), the front page can follow the format for:
+## Options
+
+By (un)commenting the appropriate lines in the title page file
+(`frontmatter/title_page.tex`), the front page can follow the format for:
 
 - Skripsie (i.e. final year project) reports
-- MEng theses
+- MEng (research) theses
+- MEng (structured) research assignments
+- PhD dissertations
 
 You can also use alternative small-cap headings by:
 
-- Commenting out the `% Headings` section in the root LaTeX file and
-  uncommenting the subsequent code block for the alternative headings.
+- Commenting out the `% Headings` section in the root LaTeX file
+  (`stellenbosch_ee_report.tex`) and uncommenting the subsequent code block for
+  the alternative headings.
 - (Un)commenting the appropriate line for formatting the title in the
   `frontmatter/title_page.tex` file.
-
-
-License
--------
-&copy; 2020-2021 Herman Kamper  
-This work is licensed under the Creative Commons Attribution-ShareAlike
-license ([CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)).
