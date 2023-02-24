@@ -26,3 +26,12 @@ You can also use alternative small-cap headings by:
   the alternative headings.
 - (Un)commenting the appropriate line for formatting the title in the
   `frontmatter/title_page.tex` file.
+
+
+## Acknowledgements
+
+The following people have given inputs and proposed changes:
+
+- [Werner van der Merwe](https://github.com/wvdm1217)
+- [Leanne Nortje](https://github.com/LeanneNortje/)
+- [Willie Rossouw](https://github.com/nssassassin)
