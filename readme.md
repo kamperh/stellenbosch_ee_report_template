@@ -32,5 +32,3 @@ The following people have given inputs and proposed changes:
 - [Leanne Nortje](https://github.com/LeanneNortje/)
 - [Willie Rossouw](https://github.com/nssassassin)
 - Nicol Visser
-
-Overleaf
