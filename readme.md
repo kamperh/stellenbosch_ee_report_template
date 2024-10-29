@@ -6,8 +6,9 @@
 
 ## Overview
 
-A LaTeX template for reports following the guidelines of the Department of
-Electrical and Electronic Engineering at Stellenbosch University.
+A LaTeX template for reports, theses and dissertations following the guidelines
+of the Department of Electrical and Electronic Engineering at Stellenbosch
+University.
 
 You can directly open the template on
 [Overleaf](https://www.overleaf.com/read/jgnvncctghrr#afd824).
