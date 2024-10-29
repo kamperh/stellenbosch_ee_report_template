@@ -10,6 +10,10 @@
 \usepackage{lmodern}
 \usepackage{siunitx}
 \usepackage{tcolorbox}
+% \usepackage[scaled=.96]{XCharter}
+\usepackage[scaled=.96]{caladea}  % font required by Stellenbosch University
+\usepackage[scaled=.96,lf]{carlito}  % the scaling makes the math the same height
+\renewcommand*\oldstylenums[1]{\carlitoOsF #1}
 \newcommand{\myemph}[1]{{\sffamily\bfseries#1}}
 \sloppy
 \onehalfspacing
@@ -41,6 +45,7 @@
 \usepackage{tikz}
 \usepackage{pdfpages}
 \usepackage{subcaption}
+\usepackage{stackengine}
 \setlength{\abovecaptionskip}{7.5pt}  % spacing above and below captions
 \newcommand*{\WaterMark}[2][0.2\paperwidth]{\AddToShipoutPicture*{\AtTextCenter{\parbox[c]{0pt}{\makebox[0pt][c]{\includegraphics[width=#1]{#2}}}}}}
 
@@ -112,9 +117,9 @@
 % Front matter
 \input{frontmatter/title_page}
 \pagenumbering{roman}
-\input{frontmatter/acknowledgements}
 \input{frontmatter/declaration}
 \input{frontmatter/abstract}
+\input{frontmatter/acknowledgements}
 \tableofcontents
 %\listoffigures
 %\listoftables

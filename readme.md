@@ -5,8 +5,8 @@
 
 ## Overview
 
-A LaTeX template for reports following the guidelines of the E&E department at
-Stellenbosch University.
+A LaTeX template for reports following the guidelines of the Department of
+Electrical and Electronic Engineering at Stellenbosch University.
 
 
 ## Options
@@ -19,13 +19,8 @@ By (un)commenting the appropriate lines in the title page file
 - MEng (structured) research assignments
 - PhD dissertations
 
-You can also use alternative small-cap headings by:
-
-- Commenting out the `% Headings` section in the root LaTeX file
-  (`stellenbosch_ee_report.tex`) and uncommenting the subsequent code block for
-  the alternative headings.
-- (Un)commenting the appropriate line for formatting the title in the
-  `frontmatter/title_page.tex` file.
+Similarly the the `frontmatter/declaration.tex` page need to fit the degree: at
+Stellenbosch, it is a "master's thesis" while it is a "PhD dissertation".
 
 
 ## Acknowledgements
@@ -35,3 +30,4 @@ The following people have given inputs and proposed changes:
 - [Werner van der Merwe](https://github.com/wvdm1217)
 - [Leanne Nortje](https://github.com/LeanneNortje/)
 - [Willie Rossouw](https://github.com/nssassassin)
+- Nicol Visser
