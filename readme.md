@@ -11,7 +11,7 @@ of the Department of Electrical and Electronic Engineering at Stellenbosch
 University.
 
 You can directly open the template on
-[Overleaf](https://www.overleaf.com/read/jgnvncctghrr#afd824).
+[Overleaf](https://www.overleaf.com/latex/templates/stellenbosch-university-electrical-and-electronic-engineering-template/bsppqrfmdpqp).
 
 
 ## Options
