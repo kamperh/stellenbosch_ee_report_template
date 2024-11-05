@@ -1,7 +1,7 @@
 # Stellenbosch University E&E Department LaTeX Template
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](license.md)
-[![Overleaf](https://img.shields.io/badge/Overleaf-Open%20as%20template-green.svg)](https://www.overleaf.com/read/jgnvncctghrr#afd824)
+[![Overleaf](https://img.shields.io/badge/Overleaf-Open%20as%20template-green.svg)](https://www.overleaf.com/latex/templates/stellenbosch-university-electrical-and-electronic-engineering-template/bsppqrfmdpqp)
 
 
 ## Overview
